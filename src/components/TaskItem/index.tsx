@@ -2,8 +2,8 @@ import { StyledTaskText } from "./styles";
 import React, { useState } from 'react';
 import { TouchableOpacity } from 'react-native';
 import { Ionicons } from "@expo/vector-icons";
-import { StyledTaskItem } from "../TaskItem/styles";
-import { theme } from "../../global/styles/theme";
+import { StyledTaskItem } from "./styles";
+import { theme } from "@/global/styles/theme"
 import { CheckBox } from "@rneui/base";
 
 interface TaskItemProps {

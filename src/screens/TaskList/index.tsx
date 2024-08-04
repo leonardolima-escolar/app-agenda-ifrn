@@ -2,7 +2,7 @@ import { Container, Header, Subtitle, Title } from "./styles";
 import { FlatList } from "react-native";
 import { TaskItem } from "../../components/TaskItem";
 
-export function TaskList({ navigation }: any) {
+export function TaskList() {
   const tasks = [ 
     { id: 1, title: "Pagar boleto", completed: false },
     { id: 2, title: "Arrumar a cama", completed: true },
